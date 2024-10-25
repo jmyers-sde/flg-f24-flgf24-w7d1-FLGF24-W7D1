@@ -11,6 +11,6 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '16'
-      - run: npm c
+      - run: npm ci
       - run: npm test
       - uses: education/autograding@v1
